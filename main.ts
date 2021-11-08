@@ -13,9 +13,6 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
 	
 })
-input.onPinPressed(TouchPin.P1, function () {
-	
-})
 input.onGesture(Gesture.Shake, function () {
     Dice1 = randint(1, 6)
     basic.showNumber(Dice1)
